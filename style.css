@@ -40,8 +40,13 @@ body {
     display: block;
 }
 
+.navbar-links li a:hover {
+    color: rgb(160, 109, 165);
+}
+
 .navbar-links li:hover {
-    background-color: #555
+    background-color: #555;
+    
 }
 
 .toggle-button {
@@ -71,6 +76,8 @@ body {
     .navbar-links {
         display: none; 
         width: 100%;
+        
+        background-color:rgb(59, 58, 58);
     }
 
     .navbar {
@@ -86,6 +93,7 @@ body {
 
     .navbar-links li {
         text-align: center;
+        
     }
 
     .navbar-links li a {
@@ -94,6 +102,27 @@ body {
 
     .navbar-links.active {
         display: flex;
+       
     }
 
+}
+
+.swiper-container {
+    height: 50vh;
+
+}
+
+.swiper-slide {
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+   
+}
+
+.one {
+    
+    background-size: cover;
+   
 }
